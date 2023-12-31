@@ -48,6 +48,7 @@ def jogar():
 
         enforcou = erros == 7
         acertou = "_" not in letras_acertadas
+        letras_faltando = str(letras_acertadas.count('_'))
         print(letras_acertadas)
         print('Ainda faltam acertar {} letras'.format(letras_faltando))
 
