@@ -22,6 +22,7 @@ def jogar():
 
     letras_acertadas = ["_" for letra in palavra_secreta]
     letras_faltando = str(letras_acertadas.count('_'))
+    local_letra = 0
     print(letras_acertadas)
 
     enforcou = False
@@ -37,7 +38,8 @@ def jogar():
             for letra in palavra_secreta:
                 if(chute == letra):
                     letras_acertadas[index] = letra
-                    print("encontrei a letra {} na posição {}".format(letra, index))
+                    local_letra = index + 1
+                    print("encontrei a letra {} na posição {}".format(letra, local_letra))
                 index = index + 1
         else:
             erros = erros + 1  #Pode usar "erro += 1"
@@ -50,7 +52,7 @@ def jogar():
         acertou = "_" not in letras_acertadas
         letras_faltando = str(letras_acertadas.count('_'))
         print(letras_acertadas)
-        print('Ainda faltam acertar {} letras'.format(letras_faltando))
+        print('Ainda faltam {} espaços para acertar a palavra!'.format(letras_faltando))
 
 #Parte 4 do jogo = Final do Jogo, imprimi a mensagem correta.
 
