@@ -1,7 +1,7 @@
 # Simple Games in Python
 These are games developed in Alura's Python courses.<br/>
-Python: Getting Started in the Language => Number Guessing Game<br/>
-Python: Advancing in the Language => Hangman Game<br/>
+1. Python: Getting Started in the Language => Number Guessing Game<br/>
+2. Python: Advancing in the Language => Hangman Game<br/>
 <br/>
 The code for "escolha_jogo" asks which game you prefer to play and then chooses one of them.<br/>
 Currently, there are only 2 simple games and they need some more adjustments.<br/>
