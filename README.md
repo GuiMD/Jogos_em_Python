@@ -11,6 +11,7 @@ Fixed: Guessing a number from 1 to 100 does not lose an attempt and does not ded
 I changed the scoring system of the guessing game so that it scales with the number of mistakes.<br/>
 (...)<br/>
 <br/>
+
 # Jogos Simples em Python
 São jogos desenvolvidos nos cursos de Python da Alura.<br/>
 1. Python: Começando na Linguagem => Jogo de Advinhar um Número <br/>
